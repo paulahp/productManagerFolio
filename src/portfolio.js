@@ -1,4 +1,4 @@
-* Change this file to get your personal Portfolio */
+/* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
@@ -6,462 +6,221 @@ import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 // Splash Screen
-
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: true,
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000
 };
 
 // Summary And Greeting Section
-
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Paula Carolina",
+  title: "Hi all, I'm Paula",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Product Manager 🚀 with over 5 years of experience leading cross-functional teams to build impactful software products. Skilled in bridging the gap between business goals and technical execution, driving product strategy, user-centered design, and agile delivery to create solutions that delight users and generate real value."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  resumeLink: "https://drive.google.com/drive/folders/1mJTnDLlsyxo4r-gcN0Wdk3QtR_cLOBvt?usp=sharing",
+  displayGreeting: true
 };
 
 // Social Media Links
-
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  github: "https://github.com/paulahp",
+  linkedin: "https://www.linkedin.com/in/po-paula-carolina/?locale=en_US",
+  gmail: "impaulacarolina@gmail.com",
+  display: true
 };
 
 // Skills Section
-
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "PASSIONATE PRODUCT MANAGER DRIVING INNOVATION AND BUSINESS VALUE",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("🚀 Lead cross-functional teams to deliver user-centric products"),
+    emoji("🎯 Define product vision, strategy, and roadmap aligned with business goals"),
+    emoji("📋 Manage backlog, prioritize features, and refine user stories with agile methodologies"),
+    emoji("🤝 Collaborate with stakeholders, designers, and developers to ensure high-quality delivery"),
+    emoji("📊 Use data analysis and feedback to continuously improve product experience")
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
+      skillName: "SQL Database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Postman",
+      fontAwesomeClassname: "fas fa-vials"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Education Section
-
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
-  schools: [
-    {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
-  ]
+  display: false,
+  schools: []
 };
 
-// Your top 3 proficient stacks/tech experience
-
+// Tech Stack
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Product Management & Strategy",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Frontend / User Interface Understanding",
+      progressPercentage: "75%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Backend / APIs",
+      progressPercentage: "89%"
+    },
+    {
+      Stack: "Agile & Scrum Methodologies",
+      progressPercentage: "95%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
-// Work experience section
-
+// Work Experience
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Technical Product Owner",
+      company: "Jazz Tech",
+      companylogo: require("./assets/images/jazzLogo.png"),
+      date: "Oct 2022 – Present · 2 yrs 9 mos",
+      desc: "At Jazz Tech, a leading fintech that combines technology and banking services, I act as the bridge between technical development and business objectives for financing products. I ensure clear communication and manage the development process to deliver high-value features on time.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Leadership in Communication and Alignment: promote transparent information flow across teams, stakeholders, and departments.",
+        "Risk and Dependency Management: proactively identify and mitigate risks, ensuring smooth collaboration across teams and projects.",
+        "Feedback and Validation: gather and analyze feedback from stakeholders and users, translating it into actionable requirements and validating features.",
+        "Backlog Management and Prioritization: effectively prioritize tasks and refine technical details in user stories."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Quality Assurance Analyst",
+      company: "Softplan",
+      companylogo: require("./assets/images/softplanLogo.png"),
+      date: "Feb 2021 – Nov 2021 · 10 mos",
+      desc: "Softplan is a company specialized in digital solutions for Justice, Civil Construction, Public Management, and Healthcare.",
+      descBullets: [
+        "Reviewed and analyzed Business Rules and UX prototypes; executed usability and accessibility testing.",
+        "Defined test strategies based on user stories using MindMaps.",
+        "Planned and executed functional tests, reported and managed bugs.",
+        "Wrote database queries using SQL, ORACLE, and DB2.",
+        "Automated test scripts using Postman for REST APIs and Cypress with JavaScript.",
+        "Conducted Proofs of Concept (PoCs) for technical solutions, including REST APIs and test automation, improving team efficiency."
+      ]
     }
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
-
-const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
-};
-
-// Some big projects you have worked on
-
+// Big Projects
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Some of the key products and initiatives I led",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/motorolaLogo.jpg"),
+      projectName: "Dimo – Motorola Financing",
+      projectDesc: "As the Product Owner, I led the development of the smartphone financing feature within Motorola's digital account, Dimo. Focused on financial inclusion, the product allows users to purchase devices in up to 18 installments with no credit card, fully integrated into the Hello You app.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-const portfolio = {
-  settings: {
-    isSplash: true,
-  },
-
-  greeting: {
-    title: "Paula",
-    logo_name: "PaulaPO",
-    nickname: "paulahp",
-    subTitle:
-      "Product Owner com +3 anos de experiência em produtos financeiros, APIs e cobrança. Background em QA, foco em entregas de valor com clareza, colaboração e visão de produto.",
-    resumeLink: "",
-    portfolio_repository: "https://github.com/paulahp/productManagerFolio",
-    githubProfile: "https://github.com/paulahp",
-  },
-
-  socialMediaLinks: [
-    {
-      name: "LinkedIn",
-      link: "https://linkedin.com/in/SEU-LINKEDIN-AQUI",
-      fontAwesomeIcon: "fa-linkedin-in",
-      backgroundColor: "#0077B5",
-    },
-    {
-      name: "GitHub",
-      link: "https://github.com/paulahp",
-      fontAwesomeIcon: "fa-github",
-      backgroundColor: "#181717",
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Learn more about Dimo",
+          url: "https://www.motorola.com.br/dimo"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
-// Achievement Section
-// Include certificates, talks etc
-
+// Achievements
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
+  subtitle: "Achievements, Certifications and Some Cool Stuff that I have done !",
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "AI Product Specialist - PM3",
+      subtitle: "Specialized course by PM3 on AI product development, covering prompt engineering, LLMs, RAGs, and AI strategy through recorded and live sessions with a final capstone project.",
+      image: require("./assets/images/pm3Logo.png"),
+      imageAlt: "PM3 AI Product Specialist Logo",
+      footerLink: [
+        {
+          name: "Certification in progress",
+          url: ""
+        },
+        {
+          name: "More Info",
+          url: "https://www.cursospm3.com.br/curso-ai-product-specialist"
+        }
+      ]
+    },
+    {
+      title: "Software Testing and Quality Program (PQTS)",
+      subtitle: "Comprehensive course by Júlio de Lima covering testing fundamentals, automation, exploratory testing, and software quality strategies.",
+      image: require("./assets/images/julioLimaLogo.jpg"),
+      imageAlt: "PQTS Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://programadetestesequalidade.club.hotmart.com/public/user-certificate/107b8951-2546-4113-8d7c-49e7021b41c6/_"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          name: "More Info",
+          url: "https://juliodelima.com.br/pqts"
+        }
+      ]
+    },
+    {
+      title: "Agilizei Bootcamp - Test Automation",
+      subtitle: "Hands-on bootcamp focused on web test automation with Cypress and JavaScript, covering best practices in Agile Testing and continuous integration.",
+      image: require("./assets/images/agilizeiLogo.jpg"),
+      imageAlt: "Agilizei Bootcamp Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://agilizei-bootcamp.club.hotmart.com/public/user-certificate/0860eaea-bf7f-40f8-97bb-e43c5ce35033/_"
         },
         {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "More Info",
+          url: "https://bootcamp.agilizei.com/"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
-// Blogs Section
-
-const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-  skillsSection: {
-    title: "O que eu faço",
-    subTitle:
-      "Atuação como Product Owner em squads ágeis, com forte envolvimento em documentação, APIs e automação de processos.",
-    skills: [
-      "⚙️ Mapeamento e automação de processos ponta a ponta",
-      "📄 Documentação funcional e técnica (API, histórias, regras)",
-      "🔁 Integração entre sistemas legados e novos",
-      "📊 Análise de dados com SQL e métricas de produto",
-    ],
-  },
-
-  experience: {
-    title: "Experiência",
-    sections: [
-      {
-        title: "Product Owner",
-        work: [
-          {
-            company: "Empresa XPTO",
-            role: "Product Owner",
-            date: "2022 - Atual",
-            desc: "Responsável por geração de cobrança via Pix, APIs de antecipação de parcelas e produtos financeiros.",
-            descBullets: [
-              "Refinamento de histórias com regras de adimplência",
-              "Integrações com sistemas legados",
-              "Documentação técnica e critérios de aceite Gherkin",
-            ],
-          },
-        ],
-      },
-    ],
-  },
-
-  projects: {
-    data: [
-      {
-        id: "1",
-        name: "Cobrança via Pix",
-        description:
-          "Produto com regras inteligentes para geração de cobranças personalizadas por canal, status de cliente e adimplência.",
-        languages: ["Jira", "Confluence", "SQL", "Integrações"],
-      },
-      {
-        id: "2",
-        name: "Antecipação de Parcelas",
-        description:
-          "API para antecipar parcelas a vencer e regularizar inadimplências. Produto com impacto direto na receita.",
-        languages: ["API", "Integração", "Produto", "SQL"],
-      },
-    ],
-  },
-
-  contactPageData: {
-    contactSection: {
-      title: "Contato",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-        "Entre em contato pelo LinkedIn ou e-mail para oportunidades, networking ou só bater um papo sobre produtos!",
-      email: "seuemail@email.com",
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-  },
+// Resume Section
+const resumeSection = {
+  title: "Resume",
+  subtitle: "Feel free to download my resume",
+  display: true
 };
 
-// Talks Sections
-
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
-
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
-
+// Contact Info
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+  number: "+55 48 98817-8758",
+  email_address: "impaulacarolina@gmail.com"
 };
 
-// Twitter Section
-
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
-};
-
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true;
 
 export {
   illustration,
@@ -475,11 +234,7 @@ export {
   openSource,
   bigProjects,
   achievementSection,
-  blogSection,
-  talkSection,
-  podcastSection,Add commentMore actions
   contactInfo,
-  twitterDetails,
-  isHireable
+  isHireable,
+  resumeSection
 };
-export default portfolio;
