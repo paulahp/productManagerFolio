@@ -17,7 +17,7 @@ const portfolio = {
   socialMediaLinks: [
     {
       name: "LinkedIn",
-      link: "https://linkedin.com/in/SEU-LINKEDIN-AQUI",
+      link: "https://www.linkedin.com/in/po-paula-carolina/?locale=en_US",
       fontAwesomeIcon: "fa-linkedin-in",
       backgroundColor: "#0077B5",
     },
@@ -87,7 +87,7 @@ const portfolio = {
       title: "Contato",
       description:
         "Entre em contato pelo LinkedIn ou e-mail para oportunidades, networking ou só bater um papo sobre produtos!",
-      email: "seuemail@email.com",
+      email: "paulac.santos@live.com",
     },
   },
 };
