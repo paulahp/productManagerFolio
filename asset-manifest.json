@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/productManagerFolio/static/css/main.0d9f50b0.css",
+    "main.js": "/productManagerFolio/static/js/main.b5a6f061.js",
+    "static/css/487.bb36206c.chunk.css": "/productManagerFolio/static/css/487.bb36206c.chunk.css",
+    "static/js/487.7ae187c0.chunk.js": "/productManagerFolio/static/js/487.7ae187c0.chunk.js",
+    "static/css/990.c6a7ee28.chunk.css": "/productManagerFolio/static/css/990.c6a7ee28.chunk.css",
+    "static/js/990.567a0b93.chunk.js": "/productManagerFolio/static/js/990.567a0b93.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/productManagerFolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Agustina.woff": "/productManagerFolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/manOnTable.svg": "/productManagerFolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/contactMailDark.svg": "/productManagerFolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/productManagerFolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/skill.svg": "/productManagerFolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/productManagerFolio/index.html",
+    "static/media/talksCardBack.svg": "/productManagerFolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.0d9f50b0.css.map": "/productManagerFolio/static/css/main.0d9f50b0.css.map",
+    "main.b5a6f061.js.map": "/productManagerFolio/static/js/main.b5a6f061.js.map",
+    "487.bb36206c.chunk.css.map": "/productManagerFolio/static/css/487.bb36206c.chunk.css.map",
+    "487.7ae187c0.chunk.js.map": "/productManagerFolio/static/js/487.7ae187c0.chunk.js.map",
+    "990.c6a7ee28.chunk.css.map": "/productManagerFolio/static/css/990.c6a7ee28.chunk.css.map",
+    "990.567a0b93.chunk.js.map": "/productManagerFolio/static/js/990.567a0b93.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d9f50b0.css",
+    "static/js/main.b5a6f061.js"
+  ]
+}
